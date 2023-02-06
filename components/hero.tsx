@@ -63,6 +63,7 @@ export default function hero() {
             alt="Davian Lounds png"
             width={10000}
             height={10000}
+            unoptimized={true}
             className="bottom-0 right-44 z-30 m-auto my-6 md:my-1 w-3/12 rounded-full bg-prime bg-center md:block md:w-4/12 lg:absolute lg:my-auto lg:rounded-none lg:bg-transparent xl:right-60 xl:w-3/12"
           />
         </div>
