@@ -61,14 +61,14 @@ export default function hero() {
           <Image
             src={"/images/me.png"}
             alt="Davian Lounds png"
-            width={5000}
-            height={5000}
+            width={10000}
+            height={10000}
             className="bottom-0 right-44 z-30 m-auto my-6 md:my-1 w-3/12 rounded-full bg-prime bg-center md:block md:w-4/12 lg:absolute lg:my-auto lg:rounded-none lg:bg-transparent xl:right-60 xl:w-3/12"
           />
         </div>
       </div>
       {/* <!-- social icons --> */}
-      <div className="absolute right-0 inset-y-0 z-20 flex h-full w-1/5 flex-col rounded-tl-[300px] rounded-bl-[300px] bg-prime py-44 ">
+      <div className="absolute right-0 inset-y-0 z-20 flex h-full w-1/5 flex-col rounded-tl-[300px] rounded-bl-[300px] bg-prime py-20 md:py-44 ">
         <a
           href="https://www.linkedin.com/in/davianlounds"
           target="_blank"
