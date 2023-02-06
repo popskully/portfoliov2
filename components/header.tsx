@@ -49,7 +49,7 @@ export default function () {
         <button
           onClick={openNav}
           id="menu-btn"
-          className="hamburger block cursor-pointer focus:outline-none lg:hidden"
+          className="hamburger block cursor-pointer focus:outline-none focus:ring-transparent focus:border-none lg:hidden"
         >
           <span className="hamburger-top bg-prime dark:bg-slate-50"></span>
           <span className="hamburger-bottom bg-prime dark:bg-slate-50"></span>
