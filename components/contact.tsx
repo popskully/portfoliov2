@@ -90,7 +90,7 @@ export default function contact() {
               value="Send"
               type="submit"
             />
-            <ToastContainer className="z-50 mt-16" />
+            <ToastContainer className="z-50 md:mt-16 mt-24" />
           </div>
         </form>
       </div>
