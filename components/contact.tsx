@@ -22,12 +22,19 @@ export default function contact() {
       .then(
         (result) => {
           // console.log(result.text);
-          toast.success("Message was sent!");
+          toast.success("Message was sent!", {
+            position: "bottom-right",
+            theme: "colored",
+          });
         },
         (error) => {
           // console.log(error.text);
           toast.error(
-            "Failed to send message. Try emailing me at davianlounds@gmail.com"
+            "Failed to send message. Try emailing me at davianlounds@gmail.com",
+            {
+              position: "bottom-right",
+              theme: "colored",
+            }
           );
         }
       );
@@ -90,7 +97,7 @@ export default function contact() {
               value="Send"
               type="submit"
             />
-            <ToastContainer className="z-50 md:mt-16 mt-32" />
+            <ToastContainer className="z-50" />
           </div>
         </form>
       </div>
