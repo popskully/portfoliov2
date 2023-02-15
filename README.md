@@ -16,17 +16,25 @@ Execute [`git clone`](https://git-scm.com/docs/git-clone) to bootstrap the examp
 git clone "https://github.com/popskully/portfoliov2.git"
 ```
 
+Install npm:
+
 ```bash
 npm install
 ```
+
+install react-snowfall
 
 ```bash
 npm i react-snowfall
 ```
 
+install react-toastify
+
 ```bash
 npm install --save react-toastify
 ```
+
+install emailjs
 
 ```bash
 npm install @emailjs/browser --save
