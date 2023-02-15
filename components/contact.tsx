@@ -5,10 +5,10 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function contact() {
-  const form = useRef();
+  const form = React.useRef(null);
   const [state, setState] = useState({ name: "", email: "", message: "" });
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: any) => {
     e.preventDefault();
     setState({ name: "", email: "", message: "" });
 
@@ -16,7 +16,7 @@ export default function contact() {
       .sendForm(
         "portfolio_service",
         "contact_form",
-        form.current,
+        form.current!,
         "H3avTzE7EDZDHAA3w"
       )
       .then(

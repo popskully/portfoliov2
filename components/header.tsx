@@ -39,7 +39,7 @@ export default function () {
           <a
             href="https://github.com/popskully"
             target="_blank"
-            className="font-bold items-center flex hover:opacity-80  text-prime dark:text-gray-100 dark:hover:text-gray-300"
+            className="font-bold items-center flex hover:opacity-80 text-prime dark:text-gray-100 dark:hover:text-gray-300"
           >
             <FaGithub />
           </a>
@@ -65,18 +65,21 @@ export default function () {
           <a
             href="#"
             className="w-full py-2 text-center text-prime hover:opacity-75 dark:text-gray-100"
+            onClick={openNav}
           >
             Home
           </a>
           <a
             href="#skill"
             className="w-full py-2 text-center text-prime hover:opacity-75 dark:text-gray-100"
+            onClick={openNav}
           >
             Skills
           </a>
           <a
             href="#job"
             className="w-full py-2 text-center text-prime hover:opacity-75 dark:text-gray-100"
+            onClick={openNav}
           >
             Projects
           </a>
@@ -84,9 +87,10 @@ export default function () {
             <a
               href="https://github.com/popskully"
               target="_blank"
-              className="font-bold"
+              className="font-bold items-center flex hover:opacity-80  text-prime dark:text-gray-100 dark:hover:text-gray-300"
+              onClick={openNav}
             >
-              <i className="fa-brands fa-github text-gray-400 hover:text-gray-600"></i>
+              <FaGithub />
             </a>
           </div>
         </div>
@@ -99,15 +103,15 @@ function openNav() {
   const btn = document.getElementById("menu-btn");
   const nav = document.getElementById("mobile-menu");
 
-  if (btn.classList.contains("open")) {
-    btn.classList.remove("open");
-    nav.classList.add("invisible");
-    nav.classList.add("hidden");
-    nav.classList.add("flex");
+  if (btn!.classList.contains("open")) {
+    btn!.classList.remove("open");
+    nav!.classList.add("invisible");
+    nav!.classList.add("hidden");
+    nav!.classList.add("flex");
   } else {
-    btn.classList.add("open");
-    nav.classList.add("flex");
-    nav.classList.remove("invisible");
-    nav.classList.remove("hidden");
+    btn!.classList.add("open");
+    nav!.classList.add("flex");
+    nav!.classList.remove("invisible");
+    nav!.classList.remove("hidden");
   }
 }

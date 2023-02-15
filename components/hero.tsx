@@ -29,7 +29,7 @@ export default function hero() {
             Hi there👋, I hope you're not lost🤗. I’m Davian, an aspiring
             Fullstack Developer👨‍💻. My current{" "}
             <b className="animate-pulse">❤️</b> is Frontend Web Dev & UI
-            Designing.
+            Designing. Learning new skills daily!
           </p>
           <div className="flex justify-center pt-4 lg:justify-start">
             <span className="absolute z-0 mt-3 hidden h-8 w-20 animate-ping rounded-lg border border-blue-600 sm:mt-3 sm:block lg:ml-6"></span>

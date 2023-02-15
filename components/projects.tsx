@@ -170,7 +170,7 @@ export default function () {
                   </a>
                 </div>
                 <p className="text-xs text-gray-300 dark:text-gray-500 md:text-sm">
-                  #tailwindcss #javascript #nextjs #reactjs
+                  #tailwindcss #typescript #nextjs #reactjs
                 </p>
               </div>
             </div>

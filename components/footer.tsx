@@ -5,13 +5,11 @@ export default function () {
     // <!-- footer -->
     <footer className="z-10 bg-prime">
       <div className="container mx-auto items-center py-10">
-        <h1 className="text-center text-gray-300">
-          Created with ❤ by Davian Lounds
-        </h1>
+        <h1 className="text-center text-gray-300">Created with ❤ by Davian</h1>
 
-        <p className="text-center text-sm text-gray-300">
+        {/* <p className="text-center text-sm text-gray-300">
           davianlounds@gmail.com
-        </p>
+        </p> */}
         <p className="text-center text-xs text-gray-300">
           &copy; 2022 iAmDavian.com | All rights reserved
         </p>
