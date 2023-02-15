@@ -14,7 +14,7 @@ export default function () {
         snowflakeCount={500}
       /> */}
       <div id="job" className="container  scroll-mt-36 mx-auto items-start">
-        <h1 className="mt-0 pb-16 text-center text-3xl  font-semibold text-prime dark:text-gray-100 md:mt-0 md:hidden">
+        <h1 className="mt-0 pb-16 text-center font-semibold text-prime text-4xl md:text-6xl md:mt-0 md:hidden">
           My Projects
         </h1>
         <div className="flex items-center gap-3 md:flex-row">
