@@ -19,7 +19,7 @@ export default function () {
           id="skill"
           className="scroll-mt-10 border-gray-100 py-16 dark:border-gray-300"
         >
-          <h1 className="text-center text-3xl font-bold text-gray-100 dark:text-gray-300">
+          <h1 className="text-center text-4xl text-gray-100 dark:text-gray-300 md:text-6xl">
             Skills & Tools
           </h1>
         </div>
