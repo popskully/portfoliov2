@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import Snowfall from "react-snowfall";
 
-export default function format({ children }) {
+export default function format({ children }: any) {
   return (
     <>
       <Head>

@@ -179,6 +179,21 @@ export default function () {
             </span>
             <span className="mx-auto rounded-full border-4 bg-gray-100 p-3 opacity-50 grayscale hover:border-blue-400 hover:opacity-100 hover:grayscale-0 dark:border-gray-800 dark:bg-gray-800 md:p-5">
               <Image
+                src={"/images/icons/typescript.svg"}
+                width={80}
+                height={80}
+                alt="typescript"
+              />
+              <span
+                className="py-auto absolute left-0 top-0 mx-auto hidden h-full w-full items-center rounded-full p-2 text-center align-middle text-sm text-gray-100 opacity-0 hover:opacity-90 lg:flex"
+                id="photoshop-tooltip"
+                role="tooltip"
+              >
+                <p className="rounded-md bg-gray-800 p-1">TypeScript</p>
+              </span>
+            </span>
+            <span className="mx-auto rounded-full border-4 bg-gray-100 p-3 opacity-50 grayscale hover:border-blue-400 hover:opacity-100 hover:grayscale-0 dark:border-gray-800 dark:bg-gray-800 md:p-5">
+              <Image
                 src={"/images/icons/Laravel.svg"}
                 width={80}
                 height={80}
